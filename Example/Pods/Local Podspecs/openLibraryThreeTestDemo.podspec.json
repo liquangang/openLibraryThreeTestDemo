@@ -1,6 +1,6 @@
 {
   "name": "openLibraryThreeTestDemo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "openLibraryThreeTestDemo 是测试依赖其他开源库的demo.",
   "description": "openLibraryThreeTestDemo 是测试依赖其他开源库的demo lalala",
   "homepage": "https://github.com/liquangang/openLibraryThreeTestDemo",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/liquangang/openLibraryThreeTestDemo.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,9 +21,6 @@
   "source_files": "openLibraryThreeTestDemo/Classes/**/*",
   "frameworks": "UIKit",
   "dependencies": {
-    "Masonry": [
-
-    ],
     "LQGWaterFlowLayout": [
 
     ]

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'openLibraryThreeTestDemo'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'openLibraryThreeTestDemo 是测试依赖其他开源库的demo.'
 
 # This description is used to generate tags and improve search results.
@@ -38,6 +38,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit'
-    s.dependency 'Masonry'
+  # s.dependency 'Masonry'
     s.dependency 'LQGWaterFlowLayout'
 end
