@@ -21,7 +21,10 @@
   "source_files": "openLibraryThreeTestDemo/Classes/**/*",
   "frameworks": "UIKit",
   "dependencies": {
-    "LQGWaterFlowLayout": [
+    "Masonry": [
+
+    ],
+    "LQGWaterLayout": [
 
     ]
   }

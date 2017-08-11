@@ -7,7 +7,7 @@
 //
 
 #import "PhotoViewController.h"
-#import <LQGWaterLayout.h>
+#import "LQGWaterLayout.h"
 #import "AssetModel.h"
 #import "PhotoCollectionViewCell.h"
 #import "PhotoPreviewViewController.h"
@@ -148,7 +148,8 @@ static NSString *photoHeaderAndFooterResuableStr = @"headerAndFooter";
         tempCollectionView.delegate = self;
         tempCollectionView.dataSource = self;
         tempCollectionView.backgroundColor = [UIColor clearColor];
-        [tempCollectionView registerNib:[UINib nibWithNibName:photoItemResuableStr bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:photoItemResuableStr];
+        [[MAIN_BUNDLE loadNibNamed:photoItemResuableStr owner:self options:nil] lastObject];
+        [tempCollectionView registerNib:[UINib nibWithNibName:photoItemResuableStr bundle:MAIN_BUNDLE] forCellWithReuseIdentifier:photoItemResuableStr];
         [tempCollectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:photoHeaderAndFooterResuableStr];
         [tempCollectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:photoHeaderAndFooterResuableStr];
         

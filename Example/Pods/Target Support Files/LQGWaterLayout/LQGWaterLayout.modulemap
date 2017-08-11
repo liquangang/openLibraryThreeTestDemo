@@ -1,0 +1,6 @@
+framework module LQGWaterLayout {
+  umbrella header "LQGWaterLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

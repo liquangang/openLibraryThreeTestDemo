@@ -166,7 +166,8 @@ static NSString *itemResuableID = @"PhotoPreviewCollectionViewCell";
         tempView.pagingEnabled = YES;
         tempView.dataSource = self;
         tempView.delegate = self;
-        [tempView registerNib:[UINib nibWithNibName:itemResuableID bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:itemResuableID];
+        [[MAIN_BUNDLE loadNibNamed:itemResuableID owner:self options:nil] lastObject];
+        [tempView registerNib:[UINib nibWithNibName:itemResuableID bundle:MAIN_BUNDLE] forCellWithReuseIdentifier:itemResuableID];
         
         _collectionView = tempView;
     }

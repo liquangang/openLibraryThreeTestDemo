@@ -7,6 +7,7 @@
 //
 
 #import "LQGViewController.h"
+#import <openLibraryThreeTestDemo/LQGPhotoKitViewController.h>
 
 @interface LQGViewController ()
 
@@ -19,7 +20,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-//    LQGPhotoKitViewController *tempVc = [LQGPhotoKitViewController new];
+    LQGPhotoKitViewController *tempVc = [[LQGPhotoKitViewController alloc] init];
+    [self addChildViewController:tempVc];
+    [self.view addSubview:tempVc.view];
+    
 }
 
 - (void)didReceiveMemoryWarning

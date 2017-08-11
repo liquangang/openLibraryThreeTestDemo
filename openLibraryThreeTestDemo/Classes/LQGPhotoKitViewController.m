@@ -14,7 +14,7 @@
 #import "LQGWaterFlowLayout.h"
 #import "ControlHeaderView.h"
 #import "PhotoHomeViewController.h"
-#import <Masonry.h>
+#import "Masonry.h"
 #import "PhotoManager.h"
 #import "PhotoPreviewViewController.h"
 #import "AssetModel.h"
@@ -119,7 +119,9 @@ static NSString *headerResuableStr = @"UICollectionReusableView";
         tempCollectionView.delegate = self;
         tempCollectionView.dataSource = self;
         tempCollectionView.backgroundColor = [UIColor clearColor];
-        [tempCollectionView registerNib:[UINib nibWithNibName:itemResuableStr bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:itemResuableStr];
+        
+        [[MAIN_BUNDLE loadNibNamed:itemResuableStr owner:self options:nil] lastObject];
+        [tempCollectionView registerNib:[UINib nibWithNibName:itemResuableStr bundle:MAIN_BUNDLE] forCellWithReuseIdentifier:itemResuableStr];
         [tempCollectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:headerResuableStr];
         [tempCollectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:headerResuableStr];
         

@@ -12,7 +12,7 @@
 #import "PhotoHomeTableViewCell.h"
 #import "UIViewController+AuthorityManager.h"
 #import "PhotoViewController.h"
-#import <Masonry.h>
+#import "Masonry.h"
 
 static NSString *cellResuableID = @"PhotoHomeTableViewCell";
 static CGFloat cellHeight = 66;
@@ -120,7 +120,8 @@ static CGFloat cellHeight = 66;
         tempView.dataSource = self;
         tempView.separatorStyle = UITableViewCellSeparatorStyleNone;
         tempView.backgroundColor = [UIColor clearColor];
-        [tempView registerNib:[UINib nibWithNibName:cellResuableID bundle:[NSBundle mainBundle]] forCellReuseIdentifier:cellResuableID];
+        [[MAIN_BUNDLE loadNibNamed:cellResuableID owner:self options:nil] lastObject];
+        [tempView registerNib:[UINib nibWithNibName:cellResuableID bundle:MAIN_BUNDLE] forCellReuseIdentifier:cellResuableID];
         
         _tableView = tempView;
     }
