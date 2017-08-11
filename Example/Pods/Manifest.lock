@@ -9,7 +9,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - openLibraryThreeTestDemo (0.1.0)
+  - Masonry (1.0.2)
+  - openLibraryThreeTestDemo (0.1.0):
+    - Masonry
   - Specta (1.0.6)
 
 DEPENDENCIES:
@@ -27,7 +29,8 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
-  openLibraryThreeTestDemo: f11d008d3ca18b35201cc2ff824daafe3a0c32ea
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  openLibraryThreeTestDemo: 5eddc804ddaaa73b32e9c66d449822c13d3ec092
   Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
 
 PODFILE CHECKSUM: 2adf2162cbbe832845f297b6fb4f4ca7b5d916e2

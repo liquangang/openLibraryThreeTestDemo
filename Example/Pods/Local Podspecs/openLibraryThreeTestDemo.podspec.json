@@ -1,8 +1,8 @@
 {
   "name": "openLibraryThreeTestDemo",
   "version": "0.1.0",
-  "summary": "A short description of openLibraryThreeTestDemo.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "openLibraryThreeTestDemo 是测试依赖其他开源库的demo.",
+  "description": "openLibraryThreeTestDemo 是测试依赖其他开源库的demo lalala",
   "homepage": "https://github.com/liquangang/openLibraryThreeTestDemo",
   "license": {
     "type": "MIT",
@@ -18,5 +18,14 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "openLibraryThreeTestDemo/Classes/**/*"
+  "source_files": "openLibraryThreeTestDemo/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "LQGWaterFlowLayout": [
+
+    ]
+  }
 }
