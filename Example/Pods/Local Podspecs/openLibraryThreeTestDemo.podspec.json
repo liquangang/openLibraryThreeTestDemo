@@ -1,0 +1,22 @@
+{
+  "name": "openLibraryThreeTestDemo",
+  "version": "0.1.0",
+  "summary": "A short description of openLibraryThreeTestDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liquangang/openLibraryThreeTestDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liquangang": "liquangang@idstaff.com"
+  },
+  "source": {
+    "git": "https://github.com/liquangang/openLibraryThreeTestDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "openLibraryThreeTestDemo/Classes/**/*"
+}
