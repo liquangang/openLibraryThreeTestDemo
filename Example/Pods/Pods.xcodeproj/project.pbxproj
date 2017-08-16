@@ -322,8 +322,7 @@
 		0656013C53A3B1907291BEA3379E78E8 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
 		06DE45AAA9459C37A6B2C4C86EF9D342 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E40983B39B77B3DDDE96E45A110919 /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
-		0765A4FD1F3DEA38003D4F73 /* LQGAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LQGAssets.xcassets; sourceTree = "<group>"; };
-		0765A4FE1F3DEB1C003D4F73 /* ResourceAsset.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ResourceAsset.bundle; sourceTree = "<group>"; };
+		07FAB0961F44253400E5C586 /* LQGPhotoKitResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LQGPhotoKitResource.bundle; sourceTree = "<group>"; };
 		0892166B5700A74D7D61DFF89C20EFCD /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		090C86FE237452AB3BBE6E552B378E2E /* Pods-openLibraryThreeTestDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openLibraryThreeTestDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		09CE700A94ABE2A16AB615C52BB02110 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
@@ -1004,8 +1003,7 @@
 				616DEA3D44C52DF18D8DF6FAD0D1A112 /* CustomeModel */,
 				99004904833B7690757C03864000A0B1 /* CustomeVc */,
 				FA17CDBBB32DD7019E6ED9611882EE3B /* CustomeView */,
-				0765A4FD1F3DEA38003D4F73 /* LQGAssets.xcassets */,
-				0765A4FE1F3DEB1C003D4F73 /* ResourceAsset.bundle */,
+				07FAB0961F44253400E5C586 /* LQGPhotoKitResource.bundle */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

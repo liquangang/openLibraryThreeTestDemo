@@ -25,6 +25,11 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:(alphaValue)];      //颜色设置
 
 #define MAIN_BUNDLE [NSBundle bundleForClass:[self class]]
 
+#pragma mark - 开源库需要单独使用的资源获取方式
+
+// 图片路径
+#define LQG_RESOURCE_NAME(FILE) [@"LQGPhotoKitResource.bundle" stringByAppendingPathComponent:FILE]
+
 /**
  *  创建单例
  */

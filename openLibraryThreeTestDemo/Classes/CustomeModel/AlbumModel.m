@@ -43,7 +43,7 @@
             tempBlock(_thumbnail = image);
         }];
     }else{
-        tempBlock(_thumbnail = [UIImage imageNamed:@"blank"]);
+        tempBlock(_thumbnail = [UIImage imageNamed:LQG_RESOURCE_NAME(@"blank")]);
     }
 }
 
@@ -59,7 +59,7 @@
                 tempImage = image;
             }];
         }else{
-            tempImage = [UIImage imageNamed:@"blank"];
+            tempImage = [UIImage imageNamed:LQG_RESOURCE_NAME(@"blank")];
         }
         
         _thumbnail = tempImage;

@@ -45,7 +45,7 @@
             tempBlock(_thumbnail = image);
         }];
     }else{
-        tempBlock(_thumbnail = [UIImage imageNamed:@"blank"]);
+        tempBlock(_thumbnail = [UIImage imageNamed:LQG_RESOURCE_NAME(@"blank")]);
     }
 }
 
@@ -65,7 +65,7 @@
             tempBlock(_previewImage = image);
         }];
     }else{
-        tempBlock(_previewImage = [UIImage imageNamed:@"blank"]);
+        tempBlock(_previewImage = [UIImage imageNamed:LQG_RESOURCE_NAME(@"blank")]);
     }
 }
 
@@ -85,7 +85,7 @@
             tempBlock(_originalImage = image);
         }];
     }else{
-        tempBlock(_originalImage = [UIImage imageNamed:@"blank"]);
+        tempBlock(_originalImage = [UIImage imageNamed:LQG_RESOURCE_NAME(@"blank")]);
     }
 }
 
@@ -100,7 +100,7 @@
                 tempImage = image;
             }];
         }else{
-            tempImage = [UIImage imageNamed:@"blank"];
+            tempImage = [UIImage imageNamed:LQG_RESOURCE_NAME(@"blank")];
         }
         
         _thumbnail = tempImage;
@@ -117,7 +117,7 @@
                 tempImage = image;
             }];
         }else{
-            tempImage = [UIImage imageNamed:@"blank"];
+            tempImage = [UIImage imageNamed:LQG_RESOURCE_NAME(@"blank")];
         }
         
         _previewImage = tempImage;
@@ -134,7 +134,7 @@
                 tempImage = image;
             }];
         }else{
-            tempImage = [UIImage imageNamed:@"blank"];
+            tempImage = [UIImage imageNamed:LQG_RESOURCE_NAME(@"blank")];
         }
         
         _originalImage = tempImage;

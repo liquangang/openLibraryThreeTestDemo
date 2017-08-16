@@ -20,14 +20,13 @@
  */
 - (void)getPhotoAuthority:(void(^)(BOOL isCanUse))completed{
     
+    WEAKSELF
+    
     void(^tempBlock)(BOOL isCanUse) = ^(BOOL isCanUse){
         if (completed) {
             completed(isCanUse);
         }
     };
-    
-    WEAKSELF
-    
     
     [[UIApplication sharedApplication] getPhotoAuthority:^(PHAuthorizationStatus photoAuthorizationStatus) {
         
@@ -51,13 +50,13 @@
  */
 - (void)getCameraAuthority:(void(^)(BOOL isCanUse))completed{
     
+    WEAKSELF
+    
     void(^tempBlock)(BOOL isCanUse) = ^(BOOL isCanUse){
         if (completed) {
             completed(isCanUse);
         }
     };
-    
-    WEAKSELF
     
     [[UIApplication sharedApplication] getCameraAuthority:^(AVAuthorizationStatus authorizationStatus) {
         
@@ -81,6 +80,7 @@
  */
 - (void)showAuthorityAlert:(NSString *)alertString{
     UIAlertController *tempAC = [UIAlertController alertControllerWithTitle:@"" message:alertString preferredStyle:UIAlertControllerStyleAlert];
+    
     [tempAC addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         
     }]];
