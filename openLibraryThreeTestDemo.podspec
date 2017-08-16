@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'openLibraryThreeTestDemo'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'openLibraryThreeTestDemo 是测试依赖其他开源库的demo.'
 
 # This description is used to generate tags and improve search results.
@@ -31,13 +31,13 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'openLibraryThreeTestDemo/Classes/**/*'
+  s.resource     = 'openLibraryThreeTestDemo/Classes/LQGPhotoKitResource.bundle'
   
   # s.resource_bundles = {
   #   'openLibraryThreeTestDemo' => ['openLibraryThreeTestDemo/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks = 'UIKit'
     s.dependency 'Masonry'
     s.dependency 'LQGWaterLayout'
 end
