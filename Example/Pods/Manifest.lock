@@ -33,7 +33,7 @@ SPEC CHECKSUMS:
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
   LQGWaterLayout: 9447aced5f131d7c4e46f822727d79f6d40587f8
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  openLibraryThreeTestDemo: f728c2104a3a4407ec39178273d511681383dde4
+  openLibraryThreeTestDemo: 6330d51016c548c1c94fc34c861f54586626dd93
   Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
 
 PODFILE CHECKSUM: 2adf2162cbbe832845f297b6fb4f4ca7b5d916e2
