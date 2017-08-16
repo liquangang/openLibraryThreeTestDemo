@@ -251,7 +251,7 @@
 				ORGANIZATIONNAME = liquangang;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 8A7VED9NUX;
+						DevelopmentTeam = RYWQLEHRAM;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -527,7 +527,7 @@
 			baseConfigurationReference = 42B852CD1B33DF407533DC93 /* Pods-openLibraryThreeTestDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8A7VED9NUX;
+				DEVELOPMENT_TEAM = RYWQLEHRAM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "openLibraryThreeTestDemo/openLibraryThreeTestDemo-Prefix.pch";
 				INFOPLIST_FILE = "openLibraryThreeTestDemo/openLibraryThreeTestDemo-Info.plist";
@@ -543,7 +543,7 @@
 			baseConfigurationReference = 929AE1F5CD207FD208E02179 /* Pods-openLibraryThreeTestDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8A7VED9NUX;
+				DEVELOPMENT_TEAM = RYWQLEHRAM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "openLibraryThreeTestDemo/openLibraryThreeTestDemo-Prefix.pch";
 				INFOPLIST_FILE = "openLibraryThreeTestDemo/openLibraryThreeTestDemo-Info.plist";
