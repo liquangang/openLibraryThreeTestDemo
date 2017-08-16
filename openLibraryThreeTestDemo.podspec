@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'openLibraryThreeTestDemo/**/*.{h,m}'
-  s.resource     = 'openLibraryThreeTestDemo/LQGPhotoKitResource.bundle'
+  s.source_files = 'openLibraryThreeTestDemo/**/*'
+  #s.resource     = 'openLibraryThreeTestDemo/LQGPhotoKitResource.bundle'
   
   # s.resource_bundles = {
   #   'openLibraryThreeTestDemo' => ['openLibraryThreeTestDemo/Assets/*.png']
