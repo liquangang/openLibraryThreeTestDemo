@@ -18,8 +18,8 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "openLibraryThreeTestDemo/Classes/**/*",
-  "resources": "openLibraryThreeTestDemo/Classes/LQGPhotoKitResource.bundle",
+  "source_files": "openLibraryThreeTestDemo/**/*",
+  "resources": "openLibraryThreeTestDemo/LQGPhotoKitResource.bundle",
   "dependencies": {
     "Masonry": [
 
