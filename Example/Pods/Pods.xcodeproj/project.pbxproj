@@ -13,7 +13,7 @@
 		0676595134A6036819E78D0404919486 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7E2EC3BA214807F41EEA4900A8B864 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0A253EF5B04BA96A197BBC7DC1DEEB /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		078152B500DFFBDB073DDCE7E6B04F1C /* AssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB3364DB251F35305FFA3A80EF210C2 /* AssetModel.m */; };
-		07FAB0F21F44773F00E5C586 /* LQGPhotoKitResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07FAB0F11F44773F00E5C586 /* LQGPhotoKitResource.bundle */; };
+		07FAB1041F447FFF00E5C586 /* LQGPhotoKitResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07FAB1031F447FFF00E5C586 /* LQGPhotoKitResource.bundle */; };
 		0863EED95FE0CE93EC59E6BD1C323A19 /* openLibraryThreeTestDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AA39C47F1A448823449F50DABF257D /* openLibraryThreeTestDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 124E78359ABE8F4319A922CA98CB493F /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09B18A0AFD81C25D53BC3FC246DA2349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479B928C4EBF68CC474F8FFF7DBEFDA9 /* Foundation.framework */; };
@@ -321,7 +321,7 @@
 		0656013C53A3B1907291BEA3379E78E8 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
 		06DE45AAA9459C37A6B2C4C86EF9D342 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E40983B39B77B3DDDE96E45A110919 /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
-		07FAB0F11F44773F00E5C586 /* LQGPhotoKitResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LQGPhotoKitResource.bundle; sourceTree = "<group>"; };
+		07FAB1031F447FFF00E5C586 /* LQGPhotoKitResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LQGPhotoKitResource.bundle; sourceTree = "<group>"; };
 		0892166B5700A74D7D61DFF89C20EFCD /* EXPMatchers+FBSnapshotTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+FBSnapshotTest.h"; sourceTree = "<group>"; };
 		090C86FE237452AB3BBE6E552B378E2E /* Pods-openLibraryThreeTestDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-openLibraryThreeTestDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		09CE700A94ABE2A16AB615C52BB02110 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
@@ -692,10 +692,10 @@
 			path = Specta;
 			sourceTree = "<group>";
 		};
-		07FAB0F01F44773F00E5C586 /* Resources */ = {
+		07FAB1021F447FFF00E5C586 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				07FAB0F11F44773F00E5C586 /* LQGPhotoKitResource.bundle */,
+				07FAB1031F447FFF00E5C586 /* LQGPhotoKitResource.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -939,6 +939,10 @@
 		6BD419F0E201A433FE6EDFE8C5F52C39 /* openLibraryThreeTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7AA0F1B196228E49DCBC8D95D0ABCF84 /* CustomeModel */,
+				372AC74C0696AE73AD171D43C197BCFD /* CustomeVc */,
+				B2A18349097CDD4517AB35A49811E14E /* CustomeView */,
+				07FAB1021F447FFF00E5C586 /* Resources */,
 				1454DE1F22C13A44412AB934F168035B /* LQGPhotoKitViewController.h */,
 				514435E3DECB641427256FD144806296 /* LQGPhotoKitViewController.m */,
 				52420DA852180697A4C95C1A8CA8ACE0 /* PhotoManager.h */,
@@ -947,9 +951,6 @@
 				8ABBB454C79B39E46D441DAF54ACBF91 /* UIApplication+AuthorityManager.m */,
 				157AFE9C147AB3250E13BF0B6B2E8756 /* UIViewController+AuthorityManager.h */,
 				56A79E215FB7C845DF0034C370C7F5D7 /* UIViewController+AuthorityManager.m */,
-				7AA0F1B196228E49DCBC8D95D0ABCF84 /* CustomeModel */,
-				372AC74C0696AE73AD171D43C197BCFD /* CustomeVc */,
-				B2A18349097CDD4517AB35A49811E14E /* CustomeView */,
 			);
 			path = openLibraryThreeTestDemo;
 			sourceTree = "<group>";
@@ -1098,7 +1099,6 @@
 		C30AA1E69BE598359CE94905621B07FC /* openLibraryThreeTestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				07FAB0F01F44773F00E5C586 /* Resources */,
 				6BD419F0E201A433FE6EDFE8C5F52C39 /* openLibraryThreeTestDemo */,
 				641CA769673E1ED56C821BA21DBC12C5 /* Support Files */,
 			);
@@ -1540,7 +1540,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07FAB0F21F44773F00E5C586 /* LQGPhotoKitResource.bundle in Resources */,
+				07FAB1041F447FFF00E5C586 /* LQGPhotoKitResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
