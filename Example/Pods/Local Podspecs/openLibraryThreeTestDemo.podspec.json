@@ -19,7 +19,6 @@
     "ios": "8.0"
   },
   "source_files": "openLibraryThreeTestDemo/**/*",
-  "resources": "openLibraryThreeTestDemo/LQGPhotoKitResource.bundle",
   "dependencies": {
     "Masonry": [
 
